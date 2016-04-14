@@ -15,7 +15,7 @@ var mlab_user = config.mlab_user;
 var mlab_pass = config.mlab_pass;
 
 //replace this with your Mongolab URL
-mongoose.connect('mongodb://'+mlab_user+':'+mlab_pass+'@ds031832.mlab.com:31832/mp4');
+mongoose.connect('mongodb://mmly2:mmly2123@ds031832.mlab.com:31832/mp4');
 
 // Create our Express application
 var app = express();
