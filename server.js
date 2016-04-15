@@ -9,10 +9,6 @@ var Llama = require('./models/llama');
 var User = require('./models/user');
 var Task = require('./models/task');
 
-// mLab credentials
-var config = require('./secret')
-var mlab_user = config.mlab_user;
-var mlab_pass = config.mlab_pass;
 
 //replace this with your Mongolab URL
 mongoose.connect('mongodb://mmly2:mmly2123@ds031832.mlab.com:31832/mp4');
